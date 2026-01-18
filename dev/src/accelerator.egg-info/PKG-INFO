@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: accelerator
+Version: 0.1.0
+Summary: Local data accelerator framework for medallion-style analytics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark
+Requires-Dist: delta-spark
+Requires-Dist: duckdb
+Requires-Dist: pyyaml
