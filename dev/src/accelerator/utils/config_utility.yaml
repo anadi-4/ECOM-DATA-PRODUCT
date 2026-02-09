@@ -1,0 +1,8 @@
+app:
+  name: accelerator-dev
+  environment: dev
+
+spark:
+  master: local[*]
+  app_name: accelerator_dev_job
+  shuffle_partitions: 8

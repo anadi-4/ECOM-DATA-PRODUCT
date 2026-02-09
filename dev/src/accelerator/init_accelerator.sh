@@ -30,6 +30,7 @@ echo -e "${GREEN}Creating Project Directories ${NC}"
 
 mkdir -p "${BASE_PATH}/src"
 mkdir -p "${BASE_PATH}/src/accelerator"
+mkdir -p "${BASE_PATH}/src/accelerator/jobs"
 mkdir -p "${BASE_PATH}/src/accelerator/spark"
 mkdir -p "${BASE_PATH}/src/accelerator/io"
 mkdir -p "${BASE_PATH}/src/accelerator/metadata"
